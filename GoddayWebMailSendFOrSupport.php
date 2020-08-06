@@ -4,12 +4,12 @@
     // $mailSub = $obj['mail_sub'];
     // $mailMsg = $obj['mail_msg'];
 
-    $mailto = 'aaravonly4you@gmail.com';
+    $mailto = 'somebody@@gmail.com';
     $mailSub = 'Regarding Mail';
     $mailMsg = 'Here is your Message';
 
     /*Credi*/
-    $ADMIN_MAIL = "support@bgpconsultancyservices.com";
+    $ADMIN_MAIL = "support@admin@mailserrver.com";
     $ADMIN_PASS = "Q(PlT&_aO0*(JH";
 
     require 'PHPMailer-master/PHPMailerAutoload.php';
@@ -22,7 +22,7 @@
     $mail ->IsHTML(true);
     $mail ->Username = $ADMIN_MAIL;
     $mail ->Password = $ADMIN_PASS;
-    $mail ->SetFrom("support@bgpconsultancyservices.com");
+    $mail ->SetFrom("support@admin@mailserver.com");
     $mail ->Subject = $mailSub;
     $mail ->Body = $mailMsg;
     $mail ->AddAddress($mailto);

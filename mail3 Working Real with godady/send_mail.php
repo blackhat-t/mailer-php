@@ -17,7 +17,7 @@
 
 
 //Checking Email is already exist or not using SQL query.
-    $mailto = 'aaravonly4you@gmail.com';
+    $mailto = 'somebody@gmail.com';
     $mailSub = 'hiiitest ';
     $mailMsg = 'hello';
 
@@ -35,9 +35,9 @@
    $mail ->Host = "smtp.gmail.com";
    $mail ->Port = 465; // or 587
    $mail ->IsHTML(true);
-   $mail ->Username = "javaaprimer123@gmail.com";
-   $mail ->Password = "java123help";
-   $mail ->SetFrom("javaaprimer123@gmail.com");
+   $mail ->Username = "someone@gmail.com";
+   $mail ->Password = "someone1234";
+   $mail ->SetFrom("somebody@gmail.com");
    $mail ->Subject = $mailSub;
    $mail ->Body = $mailMsg;
    $mail ->AddAddress($mailto);

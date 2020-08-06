@@ -17,7 +17,7 @@
 
 
 //Checking Email is already exist or not using SQL query.
-    $mailto = 'aaravonly4you@gmail.com';
+    $mailto = 'somebody@gmail.com';
     $mailSub = 'hiiitest ';
     $mailMsg = 'hello';
 
@@ -25,7 +25,6 @@
    require 'PHPMailer-master/PHPMailerAutoload.php';
    $mail = new PHPMailer();
  
-   // new 2 line code for wokring 
    $mail->IsSMTP();
    $mail->SMTPAuth = true;
 
@@ -35,9 +34,9 @@
    $mail ->Host = "smtp.gmail.com";
    $mail ->Port = 465; // or 587
    $mail ->IsHTML(true);
-   $mail ->Username = "javaaprimer123@gmail.com";
-   $mail ->Password = "java123help";
-   $mail ->SetFrom("javaaprimer123@gmail.com");
+   $mail ->Username = "someone@gmail.com";
+   $mail ->Password = "pssword";
+   $mail ->SetFrom("someone@gmail.com");
    $mail ->Subject = $mailSub;
    $mail ->Body = $mailMsg;
    $mail ->AddAddress($mailto);

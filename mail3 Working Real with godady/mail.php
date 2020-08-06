@@ -23,12 +23,12 @@ require 'vendor/autoload.php';
 // $mailMsg = $obj['mail_msg'];
 
 
-$mailto = 'aaravonly4you@gmail.com';
+$mailto = 'somebody@gmail.com';
 $mailSub = "hi";
 $mailMsg = "hi";
 
-$Username = "javaaprimer123@gmail.com";
-$Password = "java123help";
+$Username = "someone@gmail.com";
+$Password = "password1234";
 
 
 
