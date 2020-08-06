@@ -17,7 +17,7 @@
     $mail->IsSMTP();
     $mail->SMTPAuth = true;
     $mail->SMTPDebug = 0;
-    $mail ->Host = "mail.bgpconsultancyservices.com";
+    $mail ->Host = "support@admin.com";
     $mail ->Port = 587;
     $mail ->IsHTML(true);
     $mail ->Username = $ADMIN_MAIL;
